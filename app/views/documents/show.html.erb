@@ -1,0 +1,32 @@
+<% title "Document" %>
+
+<p>
+  <strong>Title:</strong>
+  <%=h @document.title %>
+</p>
+<p>
+  <strong>Pdf File Name:</strong>
+  <%=h @document.pdf_file_name %>
+</p>
+<p>
+  <strong>Pdf File Size:</strong>
+  <%=h @document.pdf_file_size %>
+</p>
+<p>
+  <strong>Pdf Content Type:</strong>
+  <%=h @document.pdf_content_type %>
+</p>
+<p>
+  <strong>Pdf Updated At:</strong>
+  <%=h @document.pdf_updated_at %>
+</p>
+<p>
+  <strong>Content:</strong>
+  <%=h @document.content %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_document_path(@document) %> |
+  <%= link_to "Destroy", @document, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", documents_path %>
+</p>

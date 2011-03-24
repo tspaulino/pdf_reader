@@ -1,0 +1,15 @@
+one:
+  title: MyString
+  pdf_file_name: MyString
+  pdf_file_size: 1
+  pdf_content_type: MyString
+  pdf_updated_at: 2011-03-23 11:11:34
+  content: MyText
+
+two:
+  title: MyString
+  pdf_file_name: MyString
+  pdf_file_size: 1
+  pdf_content_type: MyString
+  pdf_updated_at: 2011-03-23 11:11:34
+  content: MyText

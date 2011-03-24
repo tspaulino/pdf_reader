@@ -1,0 +1,25 @@
+<% title "Documents" %>
+
+<% form_tag(search_documents_url) do %>
+  <%= text_field_tag :keyword %>
+  <%= submit_tag 'Search' %>
+<% end %>
+<table>
+  <tr>
+    <th>Thumbnail</th>
+    <th>Title</th>
+    <th>Created at</th>
+  </tr>
+  <% for document in @documents %>
+    <tr>
+      <td><%= image_tag(document.pdf.url(:thumb)) %></td>
+      <td><%= link_to document.title, document.pdf.url %></td>
+      <td><%=h document.created_at %></td>
+      <td><%= link_to "Show", document %></td>
+      <td><%= link_to "Edit", edit_document_path(document) %></td>
+      <td><%= link_to "Destroy", document, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Document", new_document_path %></p>

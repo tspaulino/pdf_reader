@@ -1,0 +1,23 @@
+Mar 24, 2011 1:16:24 AM NewRelic INFO: Writing to NewRelic log file : /Users/tiago/work/pdf_reader/vendor/plugins/jetty-solr/newrelic/logs/newrelic_agent.log
+Mar 24, 2011 1:16:24 AM NewRelic INFO: Configured to connect to RPM production at collector.newrelic.com:80
+Mar 24, 2011 1:16:24 AM NewRelic INFO: New Relic Agent v1.1.005 started
+Mar 24, 2011 1:16:29 AM NewRelic INFO: Initializing Jetty system sampler
+Mar 24, 2011 1:16:55 AM NewRelic INFO: Error Attempting to connect to collector.newrelic.com:80 : Server returned HTTP response code: 400 for URL: http://collector.newrelic.com:80/agent_listener/invoke_raw_method?method=start&license_key=<your key>&marshal_format=json&protocol_version=7
+Mar 24, 2011 1:17:26 AM NewRelic INFO: Error Attempting to connect to collector.newrelic.com:80 : Server returned HTTP response code: 400 for URL: http://collector.newrelic.com:80/agent_listener/invoke_raw_method?method=start&license_key=<your key>&marshal_format=json&protocol_version=7
+Mar 24, 2011 1:17:56 AM NewRelic INFO: Error Attempting to connect to collector.newrelic.com:80 : Server returned HTTP response code: 400 for URL: http://collector.newrelic.com:80/agent_listener/invoke_raw_method?method=start&license_key=<your key>&marshal_format=json&protocol_version=7
+Mar 24, 2011 1:18:27 AM NewRelic INFO: Error Attempting to connect to collector.newrelic.com:80 : Server returned HTTP response code: 400 for URL: http://collector.newrelic.com:80/agent_listener/invoke_raw_method?method=start&license_key=<your key>&marshal_format=json&protocol_version=7
+Mar 24, 2011 1:18:57 AM NewRelic INFO: Error Attempting to connect to collector.newrelic.com:80 : Server returned HTTP response code: 400 for URL: http://collector.newrelic.com:80/agent_listener/invoke_raw_method?method=start&license_key=<your key>&marshal_format=json&protocol_version=7
+Mar 24, 2011 1:19:28 AM NewRelic INFO: The agent will continue attempting to connect to collector.newrelic.com:80.  Future connection failures will not be logged.
+Mar 24, 2011 1:55:58 AM NewRelic INFO: The New Relic Agent is shutting down.
+Mar 24, 2011 1:55:58 AM NewRelic INFO: Agent stopped with 3 pending jobs
+Mar 24, 2011 1:55:58 AM NewRelic INFO: The New Relic Agent has shutdown.
+Mar 24, 2011 9:26:21 AM NewRelic INFO: Writing to NewRelic log file : /Users/tiago/work/pdf_reader/vendor/plugins/jetty-solr/newrelic/logs/newrelic_agent.log
+Mar 24, 2011 9:26:21 AM NewRelic INFO: Configured to connect to RPM production at collector.newrelic.com:80
+Mar 24, 2011 9:26:21 AM NewRelic INFO: New Relic Agent v1.1.005 started
+Mar 24, 2011 9:26:35 AM NewRelic INFO: Initializing Jetty system sampler
+Mar 24, 2011 9:26:52 AM NewRelic INFO: Error Attempting to connect to collector.newrelic.com:80 : Server returned HTTP response code: 400 for URL: http://collector.newrelic.com:80/agent_listener/invoke_raw_method?method=start&license_key=<your key>&marshal_format=json&protocol_version=7
+Mar 24, 2011 9:27:22 AM NewRelic INFO: Error Attempting to connect to collector.newrelic.com:80 : Server returned HTTP response code: 400 for URL: http://collector.newrelic.com:80/agent_listener/invoke_raw_method?method=start&license_key=<your key>&marshal_format=json&protocol_version=7
+Mar 24, 2011 9:27:52 AM NewRelic INFO: Error Attempting to connect to collector.newrelic.com:80 : Server returned HTTP response code: 400 for URL: http://collector.newrelic.com:80/agent_listener/invoke_raw_method?method=start&license_key=<your key>&marshal_format=json&protocol_version=7
+Mar 24, 2011 9:28:23 AM NewRelic INFO: Error Attempting to connect to collector.newrelic.com:80 : Server returned HTTP response code: 400 for URL: http://collector.newrelic.com:80/agent_listener/invoke_raw_method?method=start&license_key=<your key>&marshal_format=json&protocol_version=7
+Mar 24, 2011 9:28:53 AM NewRelic INFO: Error Attempting to connect to collector.newrelic.com:80 : Server returned HTTP response code: 400 for URL: http://collector.newrelic.com:80/agent_listener/invoke_raw_method?method=start&license_key=<your key>&marshal_format=json&protocol_version=7
+Mar 24, 2011 9:29:24 AM NewRelic INFO: The agent will continue attempting to connect to collector.newrelic.com:80.  Future connection failures will not be logged.
